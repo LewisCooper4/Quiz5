@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TaskManager.h"
 
-@interface Quiz05ViewController : UIViewController
+@interface Quiz05ViewController : UITableViewController
+{
+    TaskManager *taskManager;
+}
 
 @end

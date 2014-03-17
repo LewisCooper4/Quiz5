@@ -14,7 +14,12 @@
 		1EA11C7818D7556A00A19476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA11C7718D7556A00A19476 /* main.m */; };
 		1EA11C7C18D7556A00A19476 /* Quiz05AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA11C7B18D7556A00A19476 /* Quiz05AppDelegate.m */; };
 		1EA11C7F18D7556A00A19476 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA11C7D18D7556A00A19476 /* MainStoryboard.storyboard */; };
-		1EA11C8218D7556A00A19476 /* Quiz05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA11C8118D7556A00A19476 /* Quiz05ViewController.m */; };
+		1EA11C8B18D755B600A19476 /* Quiz05TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA11C8918D755B600A19476 /* Quiz05TableViewController.m */; };
+		1EA11C8C18D755B600A19476 /* Quiz05TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EA11C8A18D755B600A19476 /* Quiz05TableViewController.xib */; };
+		1EA11C9318D7577900A19476 /* Quiz05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA11C9218D7577900A19476 /* Quiz05ViewController.m */; };
+		1EA11C9A18D7597D00A19476 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA11C9918D7597D00A19476 /* Task.m */; };
+		1EA11CA218D759CF00A19476 /* TaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA11CA118D759CF00A19476 /* TaskManager.m */; };
+		1EDB80B518D762B6002A5952 /* urgent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB80B418D762B6002A5952 /* urgent.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +34,16 @@
 		1EA11C7A18D7556A00A19476 /* Quiz05AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz05AppDelegate.h; sourceTree = "<group>"; };
 		1EA11C7B18D7556A00A19476 /* Quiz05AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz05AppDelegate.m; sourceTree = "<group>"; };
 		1EA11C7E18D7556A00A19476 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1EA11C8018D7556A00A19476 /* Quiz05ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz05ViewController.h; sourceTree = "<group>"; };
-		1EA11C8118D7556A00A19476 /* Quiz05ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz05ViewController.m; sourceTree = "<group>"; };
+		1EA11C8818D755B600A19476 /* Quiz05TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz05TableViewController.h; sourceTree = "<group>"; };
+		1EA11C8918D755B600A19476 /* Quiz05TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz05TableViewController.m; sourceTree = "<group>"; };
+		1EA11C8A18D755B600A19476 /* Quiz05TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Quiz05TableViewController.xib; sourceTree = "<group>"; };
+		1EA11C9118D7577900A19476 /* Quiz05ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz05ViewController.h; sourceTree = "<group>"; };
+		1EA11C9218D7577900A19476 /* Quiz05ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz05ViewController.m; sourceTree = "<group>"; };
+		1EA11C9818D7597D00A19476 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		1EA11C9918D7597D00A19476 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		1EA11CA018D759CF00A19476 /* TaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskManager.h; sourceTree = "<group>"; };
+		1EA11CA118D759CF00A19476 /* TaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskManager.m; sourceTree = "<group>"; };
+		1EDB80B418D762B6002A5952 /* urgent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = urgent.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +90,19 @@
 		1EA11C7118D7556A00A19476 /* Quiz05 */ = {
 			isa = PBXGroup;
 			children = (
+				1EDB80B418D762B6002A5952 /* urgent.jpg */,
 				1EA11C7A18D7556A00A19476 /* Quiz05AppDelegate.h */,
 				1EA11C7B18D7556A00A19476 /* Quiz05AppDelegate.m */,
 				1EA11C7D18D7556A00A19476 /* MainStoryboard.storyboard */,
-				1EA11C8018D7556A00A19476 /* Quiz05ViewController.h */,
-				1EA11C8118D7556A00A19476 /* Quiz05ViewController.m */,
+				1EA11C8818D755B600A19476 /* Quiz05TableViewController.h */,
+				1EA11C8918D755B600A19476 /* Quiz05TableViewController.m */,
+				1EA11C8A18D755B600A19476 /* Quiz05TableViewController.xib */,
+				1EA11C9818D7597D00A19476 /* Task.h */,
+				1EA11C9918D7597D00A19476 /* Task.m */,
+				1EA11C9118D7577900A19476 /* Quiz05ViewController.h */,
+				1EA11C9218D7577900A19476 /* Quiz05ViewController.m */,
+				1EA11CA018D759CF00A19476 /* TaskManager.h */,
+				1EA11CA118D759CF00A19476 /* TaskManager.m */,
 				1EA11C7218D7556A00A19476 /* Supporting Files */,
 			);
 			path = Quiz05;
@@ -152,6 +173,8 @@
 			files = (
 				1EA11C7618D7556A00A19476 /* InfoPlist.strings in Resources */,
 				1EA11C7F18D7556A00A19476 /* MainStoryboard.storyboard in Resources */,
+				1EA11C8C18D755B600A19476 /* Quiz05TableViewController.xib in Resources */,
+				1EDB80B518D762B6002A5952 /* urgent.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +187,10 @@
 			files = (
 				1EA11C7818D7556A00A19476 /* main.m in Sources */,
 				1EA11C7C18D7556A00A19476 /* Quiz05AppDelegate.m in Sources */,
-				1EA11C8218D7556A00A19476 /* Quiz05ViewController.m in Sources */,
+				1EA11C8B18D755B600A19476 /* Quiz05TableViewController.m in Sources */,
+				1EA11C9318D7577900A19476 /* Quiz05ViewController.m in Sources */,
+				1EA11C9A18D7597D00A19476 /* Task.m in Sources */,
+				1EA11CA218D759CF00A19476 /* TaskManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +306,7 @@
 				1EA11C8718D7556A00A19476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
